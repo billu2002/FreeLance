@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout Section</title>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script src="https://unpkg.com/phosphor-icons"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Mukta Malar font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mukta+Malar:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Roboto -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- link css -->
+    <link rel="stylesheet" href="css/Navbar.css"">
+    <link rel="stylesheet" href="css/Footer.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/checkout.css" />
+  </head>
+  <body>
+    <!-- Navigation Section -->
+    <section class="navbar">
+      <main class="navigation">
+        <h1 class="logo">Company</h1>
+
+        <div class="deliver-country">
+          <img
+            src="navbar/Flag_of_Pakistan.svg.png"
+            alt=""
+            width="51px"
+            height="auto"
+            class="flag-img"
+          />
+          <div>
+            <div class="delivery">
+              <span>Deliver to</span>
+              <i class="ph-caret-down"></i>
+            </div>
+            <span class="country">Pakistan</span>
+          </div>
+        </div>
+
+        <div class="nav-search--container">
+          <input
+            class="nav-search"
+            type="text"
+            placeholder="What are you looking for?"
+          />
+          <ion-icon
+            name="search-outline"
+            class="nav-icon--search search-container--right"
+          ></ion-icon>
+        </div>
+
+        <div class="lang">English</div>
+
+        <div class="cta-section">
+          <span>Sign In</span>
+          <ion-icon name="person-circle-outline" class="nav-icon"></ion-icon>
+        </div>
+
+        <div class="cta-section">
+          <span>Cart</span>
+          <ion-icon name="cart-outline" class="nav-icon"></ion-icon>
+        </div>
+      </main>
+    </section>
+
+    <!-- Check Out Section -->
+    <section class="checkout-section">
+      <div class="checkout-grid">
+        <!-- How would you like to get you order ROW -->
+        <div>
+          <span class="cart-heading"
+            >How would you like to get your order?</span
+          >
+          <button class="deliver-btn">
+            <ion-icon name="cube-outline" class="box-icon"></ion-icon>Deliver It
+          </button>
+          <div>
+            <span class="cart-heading">Enter your name and address:</span>
+            <input type="text" placeholder="First Name" class="placeholder" />
+            <input type="text" placeholder="Last Name" class="placeholder" />
+            <input
+              type="text"
+              placeholder="Address Line 1"
+              class="placeholder"
+            />
+            <input
+              type="text"
+              placeholder="Address Line 2"
+              class="placeholder"
+            />
+            <div class="flex">
+              <input
+                type="text"
+                placeholder="Postal Code"
+                class="placeholder"
+              />
+              <input type="text" placeholder="City" class="placeholder" />
+              <input
+                type="text"
+                placeholder="State/Province"
+                class="placeholder"
+              />
+            </div>
+          </div>
+          <div>
+            <span class="cart-heading">What's your contact information?</span>
+            <input type="email" placeholder="Email" class="placeholder" />
+            <input type="tel" placeholder="Phone Number" class="placeholder" />
+          </div>
+          <div class="consent-chkbox">
+            <div>
+              <input type="checkbox" class="chkbox" />
+            </div>
+            <span class="privacy-agrement"
+              >I have read and consent to eShopWorld processing my information
+              in accordance with the <u>Privacy Statement</u> and
+              <u>Cookie Policy</u>. eShopWorld is a trusted Nike partner.</span
+            >
+          </div>
+
+          <div class="btns">
+            <button class="checkout">Continue</button>
+          </div>
+
+          <div class="others">
+            <p>Delivery</p>
+            <p>Shipping</p>
+            <p>Billing</p>
+            <p>Payment</p>
+          </div>
+        </div>
+
+        <!-- Order Summary Row -->
+        <div>
+          <span class="cart-heading">Order Summary</span>
+          <div class="summary">
+            <div class="summary-flex">
+              <p class="billing-info">Subtotal</p>
+              <p>$1,599.99</p>
+            </div>
+            <div class="summary-flex">
+              <p class="billing-info">Estimated Delivery & Handling</p>
+              <p>$0.00</p>
+            </div>
+            <div class="summary-flex">
+              <p class="billing-info">Taxes</p>
+              <p>—</p>
+            </div>
+            <div class="total-container">
+              <div class="summary-flex">
+                <p class="billing-info">Total</p>
+                <p><strong>$1,599.99</strong></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="cart-summary">
+            <p class="arrive">
+              <strong>Arrives Fri,Jul 29 - Wed,Aug 10</strong>
+            </p>
+            <div class="buying">
+              <img src="XPS-15.jpg" alt="" width="200px" />
+              <div>
+                <p>XPS 15 Touch Laptop</p>
+                <p class="light">512 GB SSD 16GB RAM</p>
+                <p class="light">Qty 1</p>
+                <p class="light">$1,599.99</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Footer -->
+    <footer class="footer">
+      <div class="footer-grid--5-cols">
+        <div class="logo-col">
+          <span class="logo">JadoPado</span>
+        </div>
+
+        <div class="account-col">
+          <p class="footer-heading">Accounts</p>
+          <ul class="footer-nav">
+            <li><a href="#" class="footer-link">My Account</a></li>
+            <li><a href="#" class="footer-link">Order Status</a></li>
+            <li><a href="#" class="footer-link">My products</a></li>
+            <li><a href="#" class="footer-link">Make a Payment</a></li>
+          </ul>
+        </div>
+
+        <div class="support-col">
+          <p class="footer-heading">Support</p>
+          <ul class="footer-nav">
+            <li><a href="#" class="footer-link">Support Home</a></li>
+            <li><a href="#" class="footer-link">Contact Support</a></li>
+          </ul>
+        </div>
+
+        <div class="connect-with-us-col">
+          <p class="footer-heading">Connect with Us</p>
+          <ul class="footer-nav">
+            <li><a href="#" class="footer-link">Community</a></li>
+            <li><a href="#" class="footer-link">Contact Us</a></li>
+            <li><a href="#" class="footer-link">Twitter</a></li>
+            <li><a href="#" class="footer-link">LinkedIn</a></li>
+            <li><a href="#" class="footer-link">Instagram</a></li>
+            <li><a href="#" class="footer-link">YouTube</a></li>
+          </ul>
+        </div>
+
+        <div class="our-offering-col">
+          <p class="footer-heading">Our Offerings</p>
+          <ul class="footer-nav">
+            <li><a href="#" class="footer-link">Products</a></li>
+            <li><a href="#" class="footer-link">Solutions</a></li>
+            <li><a href="#" class="footer-link">Services</a></li>
+            <li><a href="#" class="footer-link">Deals</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
