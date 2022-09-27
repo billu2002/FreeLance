@@ -1,0 +1,38 @@
+.footer{
+  border-top: 1px  solid #1d252c1a;
+  background-color: #efefef;
+  padding: 4rem 4.4rem 0 4.4rem;
+}
+
+.footer-heading{
+  color: #636363;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding-bottom: 1.6rem;
+}
+
+.footer-link{
+  text-decoration: none;
+  color: #636363;
+  line-height: 2rem;
+}
+
+.footer a{
+  display: inline-block;
+  padding-bottom: 1.6rem;
+  font-size: 1.5rem;
+}
+
+.footer-nav{
+  list-style: none;
+}
+
+.footer-grid--5-cols{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.logo-col{
+  display: block;
+  margin-top: 5rem;
+}

@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Laptop Page</title>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script src="https://unpkg.com/phosphor-icons"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Mukta Malar font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mukta+Malar:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Roboto -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+      <!-- Styles -->
+  <!-- <link rel="stylesheet" href="/css/1-Navbar.css" /> -->
+  <link rel="stylesheet" href="css/1-Navbar.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="main-section.css" />
+  <link rel="stylesheet" href="heading-section.css" />
+  <link rel="stylesheet" href="side-navbar.css" />
+  <link rel="stylesheet" href="product-card.css" />
+  <link rel="stylesheet" href="css/8-Footer.css" />
+  <link rel="stylesheet" href="laptop-grid.css" />
+  </head>
+  <body>
+    <!-- Section Navbar -->
+    <section class="navbar">
+      <main class="navigation">
+          <h1 class="logo">Company</h1>
+        </a>
+
+        <div class="deliver-country">
+          <img
+            src="navbar/Flag_of_Pakistan.svg.png"
+            alt=""
+            width="51px"
+            height="auto"
+            class="flag-img"
+          />
+          <div>
+            <div class="nav-delivery">
+              <span>Deliver to</span>
+              <i class="ph-caret-down"></i>
+            </div>
+            <span class="country">Pakistan</span>
+          </div>
+        </div>
+
+        <div class="nav-search--container">
+          <input
+            class="nav-search"
+            type="text"
+            placeholder="What are you looking for?"
+          />
+          <ion-icon
+            name="search-outline"
+            class="nav-icon--search search-container--right"
+          ></ion-icon>
+        </div>
+
+        <div class="lang">English</div>
+
+        <div class="cta-section">
+          <span>Sign In</span>
+          <ion-icon name="person-circle-outline" class="nav-icon"></ion-icon>
+        </div>
+
+        <div class="cta-section">
+          <span>
+            <a href="#">Cart</a>
+          </span>
+          <ion-icon name="cart-outline" class="nav-icon"></ion-icon>
+        </div>
+      </main>
+    </section>
+
+    <!-- Main Section -->
+    <main class="section-main">
+      <div class="headline">
+        <h1 class="headline-txt">MacBook</h1>
+        <h3 class="heading-tertiary subheading">
+          A Laptop for people who aspire to greatness
+        </h3>
+      </div>
+
+      <div class="macs">
+        <div>
+          <div class="mac">
+            <img src="Images/Mac-M2.jpg" alt="" class="mac-img" />
+          </div>
+          <h3 class="heading-tertiary">New</h3>
+          <span class="chip">M2 chip</span>
+          <span class="mac-laptop-title">MacBook Air</span>
+          <p class="intro-subheading">
+            <span>From $1199</span>
+          </p>
+          <p class="intro-cta">
+            <a href="" class="buy-btn">Buy</a>
+            <a href="" class="learn-more">Learn more ></a>
+          </p>
+        </div>
+
+        <div>
+          <div class="mac">
+            <img src="Images/Mac-Pro.jpg" alt="" class="mac-img" />
+          </div>
+          <h3 class="heading-tertiary">New</h3>
+          <span class="chip">M2 chip</span>
+          <span class="mac-laptop-title">MacBook Pro 13"</span>
+          <p class="intro-subheading">
+            <span>From $1299</span>
+          </p>
+          <p class="intro-cta">
+            <a href="" class="buy-btn">Buy</a>
+            <a href="" class="learn-more">Learn more ></a>
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <!-- Page Heading Section -->
+    <section class="section-heading">
+      <div class="processor-container">
+        <div>
+          <div>Intel® Core™ Processors</div>
+          <a href="">Compare</a>
+        </div>
+        <img src="Images/Gen processor.webp" alt="" class="gen-img" />
+      </div>
+
+      <div class="heading-primary">
+        <h1>Laptops</h1>
+      </div>
+    </section>
+
+    <section class="nav-buy-flex">
+      <!-- Side NavBar -->
+      <section class="section-navbar">
+        <!-- Filter Results -->
+        <div class="navbar-wrapper">
+          <div class="nav-title-block">
+            <div class="nav__title">Filter Results</div>
+          </div>
+        </div>
+        <!-- Refine By -->
+        <div class="accordion-item">
+          <div class="item-container"><p class="item-name">Refine By</p></div>
+          <div class="button-box">
+            <div class="selector-items">
+              <button></button>
+              <p class="item-txt">For Home</p>
+            </div>
+            <div class="selector-items">
+              <button></button>
+              <p class="item-txt">For Business</p>
+            </div>
+          </div>
+        </div>
+        <!-- Processor Generation -->
+        <div class="accordion-item">
+          <div class="item-container">
+            <p class="item-name">Processor Generation</p>
+          </div>
+          <div class="button-box">
+            <div class="selector-items">
+              <button></button>
+              <p class="item-txt">12th Gen Intel Core (26)</p>
+            </div>
+            <div class="selector-items">
+              <button></button>
+              <p class="item-txt">11th Gen Intel Core (3)</p>
+            </div>
+          </div>
+        </div>
+        <!-- Product Line -->
+        <div class="accordion-item">
+          <div class="item-container">
+            <p class="item-name">Product Line</p>
+          </div>
+          <div class="button-box">
+            <div class="selector-items">
+              <button></button>
+              <p class="item-txt">XPS (29)</p>
+            </div>
+          </div>
+        </div>
+        <!-- Shipping & Delivery -->
+        <div class="accordion-item">
+          <div class="item-container">
+            <p class="item-name">Shipping & Delivery</p>
+          </div>
+          <div class="button-box">
+            <div class="selector-items">
+              <button></button>
+              <p class="item-txt">Next Day Delivery (8)</p>
+            </div>
+            <div class="selector-items">
+              <button></button>
+              <p class="item-txt">Ships Witin 5 Days (17)</p>
+            </div>
+            <div class="selector-items">
+              <button></button>
+              <p class="item-txt">Ships Within 10 Days (27)</p>
+            </div>
+          </div>
+        </div>
+        <!-- Processor -->
+        <div class="accordion-item">
+          <div class="item-container"><p class="item-name">Processor</p></div>
+          <div class="button-box">
+            <div class="selector-items">
+              <button></button>
+              <p class="item-txt">All Intel Processors (29)</p>
+            </div>
+            <div class="selector-items">
+              <button></button>
+              <p class="item-txt">Intel Core i9 K Series (4)</p>
+            </div>
+            <div class="selector-items">
+              <button></button>
+              <p class="item-txt">Intel Core i9 (6)</p>
+            </div>
+            <div class="selector-items">
+              <button></button>
+              <p class="item-txt">Intel Core i7 (14)</p>
+            </div>
+            <div class="selector-items">
+              <button></button>
+              <p class="item-txt">Intel Core i5 (9)</p>
+            </div>
+          </div>
+        </div>
+        <!-- Price -->
+        <div class="accordion-item">
+          <div class="item-container"><p class="item-name">Price</p></div>
+          <div class="button-box">
+            <div class="selector-items">
+              <button></button>
+              <p class="item-txt">$2,001 or more (11)</p>
+            </div>
+            <div class="selector-items">
+              <button></button>
+              <p class="item-txt">$1,501 -$2,000 (8)</p>
+            </div>
+            <div class="selector-items">
+              <button></button>
+              <p class="item-txt">$1,001 -$1,500 (9)</p>
+            </div>
+            <div class="selector-items">
+              <button></button>
+              <p class="item-txt">$501 -$1,000 (1)</p>
+            </div>
+          </div>
+        </div>
+        <!-- Memory (RAM) -->
+        <div class="accordion-item">
+          <div class="item-container">
+            <p class="item-name">Memory (RAM)</p>
+          </div>
+          <div class="button-box">
+            <div class="selector-items">
+              <button></button>
+              <p class="item-txt">32 GB or More (6)</p>
+            </div>
+            <div class="selector-items">
+              <button></button>
+              <p class="item-txt">16 GB (19)</p>
+            </div>
+            <div class="selector-items">
+              <button></button>
+              <p class="item-txt">8 GB (4)</p>
+            </div>
+          </div>
+        </div>
+        <!-- Storage Size -->
+        <div class="accordion-item">
+          <div class="item-container"><p class="item-name">Price</p></div>
+          <div class="button-box">
+            <div class="selector-items">
+              <button></button>
+              <p class="item-txt">1 TB (8)</p>
+            </div>
+            <div class="selector-items">
+              <button></button>
+              <p class="item-txt">512 GB (21)</p>
+            </div>
+          </div>
+        </div>
+        <!-- Graphics -->
+        <div class="accordion-item">
+          <div class="item-container"><p class="item-name">Graphics</p></div>
+          <div class="button-box">
+            <div class="selector-items">
+              <button></button>
+              <p class="item-txt">All Intel Graphics (14)</p>
+            </div>
+            <div class="selector-items">
+              <button></button>
+              <p class="item-txt">All NVIDIA Graphics (15)</p>
+            </div>
+            <div class="selector-items">
+              <button></button>
+              <p class="item-txt">NVIDIA GeForce RTX 3060 (3)</p>
+            </div>
+            <div class="selector-items">
+              <button></button>
+              <p class="item-txt">NVIDIA GeForce RTX 3050 Ti (6)</p>
+            </div>
+            <div class="selector-items">
+              <button></button>
+              <p class="item-txt">NVIDIA GeForce RTX 3050 (6)</p>
+            </div>
+          </div>
+        </div>
+        <!-- Features -->
+        <div class="accordion-item">
+          <div class="item-container"><p class="item-name">Features</p></div>
+          <div class="button-box">
+            <div class="selector-items">
+              <button></button>
+              <p class="item-txt">Backlit Keyboard (29)</p>
+            </div>
+            <div class="selector-items">
+              <button></button>
+              <p class="item-txt">Fingerprint Reader (29)</p>
+            </div>
+            <div class="selector-items">
+              <button></button>
+              <p class="item-txt">Lightweight (22)</p>
+            </div>
+            <div class="selector-items">
+              <button></button>
+              <p class="item-txt">Touch Screen (14)</p>
+            </div>
+            <div class="selector-items">
+              <button></button>
+              <p class="item-txt">Wi-Fi 6 (29)</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Card Section -->
+      <section class="section-laptop">
+        <!-- Page results -->
+        <div class="page-info-container">
+          <div>
+            <span class="page-info">13 to 24 of 29 Results</span>
+          </div>
+
+          <div class="sorting-control">
+            <label for="">Sort by:</label>
+            <select name="" id="" class="sortDropdown">
+              <option value="" class="options">Relevance</option>
+              <option value="" class="options">Lowest Price</option>
+              <option value="" class="options">Highest Price</option>
+              <option value="" class="options">Shipping Speed</option>
+            </select>
+          </div>
+        </div>
+        <!-- Cards -->
+        <div class="grid grid--4-cols">
+          <!-- Card 1 -->
+
+          <div class="item">
+            <div class="check">
+              <button class="chk-btn"></button>
+              <p class="compare">Comapare</p>
+            </div>
+            <div class="clearance">Clearance</div>
+
+            <div class="box">
+              <img src="Images/XPS-13.jpg" alt="" class="product-img" />
+            </div>
+
+            <a href="" class="product-name">XPS 13 Touch Laptop</a>
+            <p class="product-price">$1,369.99</p>
+            <div class="delivery">
+              <p>
+                <strong>Free Next Day Delivery</strong> if ordered by 2 PM CT
+              </p>
+              <a href="" class="delivery-date">View Delivery Dates</a>
+            </div>
+
+            <div class="spec-list">
+              <ul class="specs">
+                <li class="spec">
+                  <i class="ph-cpu icon-size"></i>11ᵗʰ Gen Intel® Core™
+                  i5-1135G7
+                </li>
+                <li class="spec">
+                  <i class="ph-windows-logo icon-size"></i>Windows 11 Home
+                </li>
+                <li class="spec">
+                  <i class="ph-game-controller icon-size"></i>Intel® Iris® Xe
+                  Graphics
+                </li>
+                <li class="spec">
+                  <i class="ph-hard-drive icon-size"></i>8 GB Memory
+                </li>
+                <li class="spec">
+                  <i class="ph-hard-drives icon-size"></i>512 GB SSD
+                </li>
+                <li class="spec">
+                  <i class="ph-frame-corners icon-size"></i>13.4-in. touch
+                  display Full HD (1920X1200)
+                </li>
+                <li class="spec">
+                  <i class="ph-scales icon-size"></i>Starting at 2.64 lbs
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+
+          <div class="item">
+            <div class="check">
+              <button class="chk-btn"></button>
+              <p class="compare">Comapare</p>
+            </div>
+            <div class="clearance">Clearance</div>
+
+            <div class="box">
+              <img src="Images/XPS-15.jpg" alt="" class="product-img" />
+            </div>
+
+            <a href="" class="product-name">XPS 15 Touch Laptop</a>
+            <p class="product-price">$1,599.99</p>
+            <div class="delivery">
+              <p>
+                <strong>Free Next Day Delivery</strong> if ordered by 2 PM CT
+              </p>
+              <a href="" class="delivery-date">View Delivery Dates</a>
+            </div>
+
+            <div class="spec-list">
+              <ul class="specs">
+                <li class="spec">
+                  <i class="ph-cpu icon-size"></i>11ᵗʰ Gen Intel® Core™
+                  i7-11800H
+                </li>
+                <li class="spec">
+                  <i class="ph-windows-logo icon-size"></i>Windows 11 Home
+                </li>
+                <li class="spec">
+                  <i class="ph-game-controller icon-size"></i>NVIDIA® GeForce
+                  RTX™ 3050 Ti
+                </li>
+                <li class="spec">
+                  <i class="ph-hard-drive icon-size"></i>16 GB Memory
+                </li>
+                <li class="spec">
+                  <i class="ph-hard-drives icon-size"></i>512 GB SSD
+                </li>
+                <li class="spec">
+                  <i class="ph-frame-corners icon-size"></i>15.6-in. touch
+                  display 3.5K (3456X2160) OLED
+                </li>
+                <li class="spec">
+                  <i class="ph-scales icon-size"></i>Starting at 4.22 lbs
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="item">
+            <div class="check">
+              <button class="chk-btn"></button>
+              <p class="compare">Comapare</p>
+            </div>
+            <div class="clearance">Clearance</div>
+
+            <div class="box">
+              <img src="Images/XPS-15-img.jpg" alt="" class="product-img" />
+            </div>
+
+            <a href="" class="product-name">New XPS 15 Laptop</a>
+            <p class="product-price">$1,899.00</p>
+            <div class="delivery">
+              <p>
+                <strong>Free Next Day Delivery</strong> if ordered by 2 PM CT
+              </p>
+              <a href="" class="delivery-date">View Delivery Dates</a>
+            </div>
+
+            <div class="spec-list">
+              <ul class="specs">
+                <li class="spec">
+                  <i class="ph-cpu icon-size"></i>12ᵗʰ Gen Intel® Core™
+                  i7-12700H
+                </li>
+                <li class="spec">
+                  <i class="ph-windows-logo icon-size"></i>Windows 11 Home
+                </li>
+                <li class="spec">
+                  <i class="ph-game-controller icon-size"></i>NVIDIA® GeForce
+                  RTX™ 3050
+                </li>
+                <li class="spec">
+                  <i class="ph-hard-drive icon-size"></i>16 GB Memory
+                </li>
+                <li class="spec">
+                  <i class="ph-hard-drives icon-size"></i>512 GB SSD
+                </li>
+                <li class="spec">
+                  <i class="ph-frame-corners icon-size"></i>15.6-in. display
+                  Full HD (1920X1200)
+                </li>
+                <li class="spec">
+                  <i class="ph-scales icon-size"></i>Starting at 4.06 lbs
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="item">
+            <div class="check">
+              <button class="chk-btn"></button>
+              <p class="compare">Comapare</p>
+            </div>
+            <div class="clearance">Clearance</div>
+
+            <div class="box">
+              <img src="Images/XPS-15-img.jpg" alt="" class="product-img" />
+            </div>
+
+            <a href="" class="product-name">New XPS 15 Touch Laptop</a>
+            <p class="product-price">$2,599.99</p>
+            <div class="delivery">
+              <p>
+                <strong>Free Next Day Delivery</strong> if ordered by 2 PM CT
+              </p>
+              <a href="" class="delivery-date">View Delivery Dates</a>
+            </div>
+
+            <div class="spec-list">
+              <ul class="specs">
+                <li class="spec">
+                  <i class="ph-cpu icon-size"></i>12ᵗʰ Gen Intel® Core™
+                  i9-12900HK
+                </li>
+                <li class="spec">
+                  <i class="ph-windows-logo icon-size"></i>Windows 11 Home
+                </li>
+                <li class="spec">
+                  <i class="ph-game-controller icon-size"></i>NVIDIA® GeForce
+                  RTX™ 3050 Ti
+                </li>
+                <li class="spec">
+                  <i class="ph-hard-drive icon-size"></i>32 GB Memory
+                </li>
+                <li class="spec">
+                  <i class="ph-hard-drives icon-size"></i>1 TB SSD
+                </li>
+                <li class="spec">
+                  <i class="ph-frame-corners icon-size"></i>15.6-in. touch
+                  display Full HD (1920X1200)
+                </li>
+                <li class="spec">
+                  <i class="ph-scales icon-size"></i>Starting at 4.06 lbs
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+
+          <div class="item">
+            <div class="check">
+              <button class="chk-btn"></button>
+              <p class="compare">Comapare</p>
+            </div>
+            <div class="clearance">Clearance</div>
+
+            <div class="box">
+              <img src="Images/XPS-15-img.jpg" alt="" class="product-img" />
+            </div>
+
+            <a href="" class="product-name">New XPS 15 Laptop</a>
+            <p class="product-price">$2,899.00</p>
+            <div class="delivery">
+              <p>
+                <strong>Free Next Day Delivery</strong> if ordered by 2 PM CT
+              </p>
+              <a href="" class="delivery-date">View Delivery Dates</a>
+            </div>
+
+            <div class="spec-list">
+              <ul class="specs">
+                <li class="spec">
+                  <i class="ph-cpu icon-size"></i>12ᵗʰ Gen Intel® Core™
+                  i9-12900HK
+                </li>
+                <li class="spec">
+                  <i class="ph-windows-logo icon-size"></i>Windows 11 Home
+                </li>
+                <li class="spec">
+                  <i class="ph-game-controller icon-size"></i>NVIDIA® GeForce
+                  RTX™ 3050 Ti
+                </li>
+                <li class="spec">
+                  <i class="ph-hard-drive icon-size"></i>32 GB Memory
+                </li>
+                <li class="spec">
+                  <i class="ph-hard-drives icon-size"></i>1 TB SSD
+                </li>
+                <li class="spec">
+                  <i class="ph-frame-corners icon-size"></i>15.6-in. touch
+                  display 3.5K (346X2160) OLED
+                </li>
+                <li class="spec">
+                  <i class="ph-scales icon-size"></i>Starting at 4.06 lbs
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Card 6 -->
+
+          <div class="item">
+            <div class="check">
+              <button class="chk-btn"></button>
+              <p class="compare">Comapare</p>
+            </div>
+            <div class="clearance">Clearance</div>
+
+            <div class="box">
+              <img src="Images/XPS-15-img.jpg" alt="" class="product-img" />
+            </div>
+
+            <a href="" class="product-name">New XPS 15 Laptop</a>
+            <p class="product-price">$2,399.00</p>
+            <div class="delivery">
+              <p>
+                <strong>Free Next Day Delivery</strong> if ordered by 2 PM CT
+              </p>
+              <a href="" class="delivery-date">View Delivery Dates</a>
+            </div>
+
+            <div class="spec-list">
+              <ul class="specs">
+                <li class="spec">
+                  <i class="ph-cpu icon-size"></i>12ᵗʰ Gen Intel® Core™
+                  i7-12700H
+                </li>
+                <li class="spec">
+                  <i class="ph-windows-logo icon-size"></i>Windows 11 Home
+                </li>
+                <li class="spec">
+                  <i class="ph-game-controller icon-size"></i>NVIDIA® GeForce
+                  RTX™ 3050 Ti
+                </li>
+                <li class="spec">
+                  <i class="ph-hard-drive icon-size"></i>16 GB Memory
+                </li>
+                <li class="spec">
+                  <i class="ph-hard-drives icon-size"></i>1 TB SSD
+                </li>
+                <li class="spec">
+                  <i class="ph-frame-corners icon-size"></i>15.6-in. touch
+                  display Ultra HD (3840X2400)
+                </li>
+                <li class="spec">
+                  <i class="ph-scales icon-size"></i>Starting at 4.06 lbs
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Card 7 -->
+
+          <div class="item">
+            <div class="check">
+              <button class="chk-btn"></button>
+              <p class="compare">Comapare</p>
+            </div>
+            <div class="clearance">Clearance</div>
+
+            <div class="box">
+              <img src="Images/XPS-17-img.jpg" alt="" class="product-img" />
+            </div>
+
+            <a href="" class="product-name">New XPS 17 Laptop</a>
+            <p class="product-price">$2,899.00</p>
+            <div class="delivery">
+              <p>
+                <strong>Free Next Day Delivery</strong> if ordered by 2 PM CT
+              </p>
+              <a href="" class="delivery-date">View Delivery Dates</a>
+            </div>
+
+            <div class="spec-list">
+              <ul class="specs">
+                <li class="spec">
+                  <i class="ph-cpu icon-size"></i>12ᵗʰ Gen Intel® Core™
+                  i9-12900HK
+                </li>
+                <li class="spec">
+                  <i class="ph-windows-logo icon-size"></i>Windows 11 Home
+                </li>
+                <li class="spec">
+                  <i class="ph-game-controller icon-size"></i>NVIDIA® GeForce
+                  RTX™ 3060
+                </li>
+                <li class="spec">
+                  <i class="ph-hard-drive icon-size"></i>32 GB Memory
+                </li>
+                <li class="spec">
+                  <i class="ph-hard-drives icon-size"></i>1 TB SSD
+                </li>
+                <li class="spec">
+                  <i class="ph-frame-corners icon-size"></i>17.0-in. display
+                  Full HD (1920X1200)
+                </li>
+                <li class="spec">
+                  <i class="ph-scales icon-size"></i>Starting at 4.79 lbs
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Card 8 -->
+
+          <div class="item">
+            <div class="check">
+              <button class="chk-btn"></button>
+              <p class="compare">Comapare</p>
+            </div>
+            <div class="clearance">Clearance</div>
+
+            <div class="box">
+              <img src="Images/XPS-17-img.jpg" alt="" class="product-img" />
+            </div>
+
+            <a href="" class="product-name">New XPS 17 Touch Laptop</a>
+            <p class="product-price">$3,049.00</p>
+            <div class="delivery">
+              <p>
+                <strong>Free Next Day Delivery</strong> if ordered by 2 PM CT
+              </p>
+              <a href="" class="delivery-date">View Delivery Dates</a>
+            </div>
+
+            <div class="spec-list">
+              <ul class="specs">
+                <li class="spec">
+                  <i class="ph-cpu icon-size"></i>12ᵗʰ Gen Intel® Core™
+                  i9-12900HK
+                </li>
+                <li class="spec">
+                  <i class="ph-windows-logo icon-size"></i>Windows 11 Home
+                </li>
+                <li class="spec">
+                  <i class="ph-game-controller icon-size"></i>NVIDIA® GeForce
+                  RTX™ 3060
+                </li>
+                <li class="spec">
+                  <i class="ph-hard-drive icon-size"></i>16 GB Memory
+                </li>
+                <li class="spec">
+                  <i class="ph-hard-drives icon-size"></i>1 TB SSD
+                </li>
+                <li class="spec">
+                  <i class="ph-frame-corners icon-size"></i>17.0-in. display
+                  Ultra HD (3840X2400)
+                </li>
+                <li class="spec">
+                  <i class="ph-scales icon-size"></i>Starting at 4.79 lbs
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- Section Footer -->
+    <footer class="footer">
+      <div class="footer-grid--5-cols">
+        <div class="logo-col">
+          <span class="logo">Company</span>
+        </div>
+
+        <div class="account-col">
+          <p class="footer-heading">Accounts</p>
+          <ul class="footer-nav">
+            <li><a href="#" class="footer-link">My Account</a></li>
+            <li><a href="#" class="footer-link">Order Status</a></li>
+            <li><a href="#" class="footer-link">My products</a></li>
+            <li><a href="#" class="footer-link">Make a Payment</a></li>
+          </ul>
+        </div>
+
+        <div class="support-col">
+          <p class="footer-heading">Support</p>
+          <ul class="footer-nav">
+            <li><a href="#" class="footer-link">Support Home</a></li>
+            <li><a href="#" class="footer-link">Contact Support</a></li>
+          </ul>
+        </div>
+
+        <div class="connect-with-us-col">
+          <p class="footer-heading">Connect with Us</p>
+          <ul class="footer-nav">
+            <li><a href="#" class="footer-link">Community</a></li>
+            <li><a href="#" class="footer-link">Contact Us</a></li>
+            <li><a href="#" class="footer-link">Twitter</a></li>
+            <li><a href="#" class="footer-link">LinkedIn</a></li>
+            <li><a href="#" class="footer-link">Instagram</a></li>
+            <li><a href="#" class="footer-link">YouTube</a></li>
+          </ul>
+        </div>
+
+        <div class="our-offering-col">
+          <p class="footer-heading">Our Offerings</p>
+          <ul class="footer-nav">
+            <li><a href="#" class="footer-link">Products</a></li>
+            <li><a href="#" class="footer-link">Solutions</a></li>
+            <li><a href="#" class="footer-link">Services</a></li>
+            <li><a href="#" class="footer-link">Deals</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

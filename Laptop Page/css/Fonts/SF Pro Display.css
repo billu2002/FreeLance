@@ -1,0 +1,89 @@
+@font-face {
+  font-family: "SF Pro Display Black";
+  src: url(SF-Pro-Display-Black.otf);
+}
+
+@font-face {
+  font-family: "SF Pro Display Black Italic";
+  src: url(SF-Pro-Display-BlackItalic.otf);
+}
+
+@font-face {
+  font-family: "SF Pro Display Bold";
+  src: url(SF-Pro-Display-Bold.otf);
+}
+
+@font-face {
+  font-family: "SF Pro Display Bold Italic";
+  src: url(SF-Pro-Display-BoldItalic.otf);
+}
+
+@font-face {
+  font-family: "SF Pro Display Heavy";
+  src: url(SF-Pro-Display-Heavy.otf);
+}
+
+@font-face {
+  font-family: "SF Pro Display Heavy Italic";
+  src: url(SF-Pro-Display-HeavyItalic.otf);
+}
+
+@font-face {
+  font-family: "SF Pro Display Light";
+  src: url(SF-Pro-Display-Light.otf);
+}
+
+@font-face {
+  font-family: "SF Pro Display Light Italic";
+  src: url(SF-Pro-Display-LightItalic.otf);
+}
+
+@font-face {
+  font-family: "SF Pro Display Medium";
+  src: url(SF-Pro-Display-Medium.otf);
+}
+
+@font-face {
+  font-family: "SF Pro Display Medium Italic";
+  src: url(SF-Pro-Display-MediumItalic.otf);
+}
+
+@font-face {
+  font-family: "SF Pro Display Regular";
+  src: url(SF-Pro-Display-Regular.otf);
+}
+
+@font-face {
+  font-family: "SF Pro Display Regular Italic";
+  src: url(SF-Pro-Display-RegularItalic.otf);
+}
+
+@font-face {
+  font-family: "SF Pro Display Semibold";
+  src: url(SF-Pro-Display-Semibold.otf);
+}
+
+@font-face {
+  font-family: "SF Pro Display Semibold Italic";
+  src: url(SF-Pro-Display-SemiboldItalic.otf);
+}
+
+@font-face {
+  font-family: "SF Pro Display Thin";
+  src: url(SF-Pro-Display-Thin.otf);
+}
+
+@font-face {
+  font-family: "SF Pro Display Thin Italic";
+  src: url(SF-Pro-Display-ThinItalic.otf);
+}
+
+@font-face {
+  font-family: "SF Pro Display Ultralight";
+  src: url(SF-Pro-Display-Ultralight.otf);
+}
+
+@font-face {
+  font-family: "SF Pro Display Ultalight Italic";
+  src: url(SF-Pro-Display-UltralightItalic.otf);
+}
