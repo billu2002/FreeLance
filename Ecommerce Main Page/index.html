@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Main Page</title>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script src="https://unpkg.com/phosphor-icons"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Mukta Malar font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mukta+Malar:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Roboto -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- link css -->
+    <link rel="stylesheet" href="css/1-Navbar.css" />
+    <link rel="stylesheet" href="css/2-Slider.css" />
+    <link rel="stylesheet" href="css/3-Hero.css" />
+    <link rel="stylesheet" href="css/4-Mobile.css" />
+    <link rel="stylesheet" href="css/5-Computing.css" />
+    <link rel="stylesheet" href="css/6-iPad.css" />
+    <link rel="stylesheet" href="css/7-Wearables.css" />
+    <link rel="stylesheet" href="css/8-Footer.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/Fonts/SF Pro Display.css" />
+    <link rel="stylesheet" href="queries.css" />
+  </head>
+  <body>
+    <!-- Section Navbar -->
+    <section class="navbar">
+      <main class="navigation">
+        <h1 class="logo">Company</h1>
+
+        <div class="deliver-country">
+          <img
+            src="navbar/Flag_of_Pakistan.svg.png"
+            alt=""
+            width="51px"
+            height="auto"
+            class="flag-img"
+          />
+          <div>
+            <div class="nav-delivery">
+              <span>Deliver to</span>
+              <i class="ph-caret-down"></i>
+            </div>
+            <span class="country">Pakistan</span>
+          </div>
+        </div>
+
+        <div class="nav-search--container">
+          <input
+            class="nav-search"
+            type="text"
+            placeholder="What are you looking for?"
+          />
+          <ion-icon
+            name="search-outline"
+            class="nav-icon--search search-container--right"
+          ></ion-icon>
+        </div>
+
+        <div class="lang">English</div>
+
+        <div class="cta-section">
+          <span>Sign In</span>
+          <ion-icon name="person-circle-outline" class="nav-icon"></ion-icon>
+        </div>
+
+        <div class="cta-section">
+          <span>Cart
+          </span>
+          <ion-icon name="cart-outline" class="nav-icon"></ion-icon>
+        </div>
+      </main>
+    </section>
+
+    <!-- Slider Section -->
+    <section class="slider-container">
+      <div class="slider">
+        <div>
+          <div>
+            <h1 class="slider-mac-heading">Macbook Pro 13"</h1>
+            <h4 class="heading-tertiary">Pro anywhere.</h4>
+            <h5 class="mac-price">From $1299</h5>
+          </div>
+          <div class="slider-link">
+            <a href="#" class="slider-buy">Buy</a>
+            <div class="slider-learn">
+              <a href="#">Learn more</a>
+              <i class="ph-caret-right"></i>
+            </div>
+          </div>
+        </div>
+        <img
+          src="Hero/macbook_pro_13__e3r46kd69eoi_large.jpeg"
+          alt=""
+          class="slider-mac--img"
+        />
+      </div>
+    </section>
+
+    <!-- Section Hero -->
+    <section class="hero">
+      <h1 class="hero-heading--primary">
+        Shop our latest offers and innovations
+      </h1>
+      <div class="link">
+        <a href="#" class="links">Mobile</a>
+        <a href="#" class="links">TV & Audio</a>
+        <a href="#" class="links">Computing</a>
+        <a href="#" class="links">Monitor</a>
+        <a href="#" class="links">Wearables</a>
+      </div>
+
+      <div class="hero-container">
+        <div class="hero-grid">
+          <div class="item item--1">
+              <img src="Hero/Macbook.jpg" alt="" />
+            </a>
+          </div>
+          <div class="item">
+            <img src="Hero/Iphone.jpg" alt="Iphone" />
+          </div>
+          <div class="item">
+            <img src="Hero/Ipad.jpg" alt="Ipad" />
+          </div>
+          <div class="item">
+            <img src="Hero/Apple watch.jpg" alt="Watch" />
+          </div>
+          <div class="item">
+            <img src="Hero/Tv.jpg" alt="Tv" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Mobile -->
+    <section class="mobile">
+      <h1 class="mobile-heading--primary">Smart Phones</h1>
+      <div class="phone-links">
+        <a href="#" class="links">Apple</a>
+        <a href="#" class="links">Samsung</a>
+        <a href="#" class="links">Google</a>
+        <a href="#" class="links">OnePlus</a>
+        <a href="#" class="links">Huawei</a>
+      </div>
+
+      <div>
+        <h2 class="mobile-heading--secondary">iPhone 13</h2>
+        <h4 class="mobile-heading--tertiary">Your new superpower.</h4>
+
+        <div class="cta-btns">
+          <div class="learn-more--icon">
+            <a href="#">Learn more</a>
+            <i class="ph-caret-right"></i>
+          </div>
+
+          <div class="buy-now--icon">
+            <a href="#">Buy</a>
+            <i class="ph-caret-right"></i>
+          </div>
+        </div>
+
+        <div class="mobile-img--container">
+          <img src="iPhone/iphone_13.png" alt="" />
+        </div>
+
+        <div class="grid-2--cols">
+          <!-- Container 1 -->
+          <div class="iphone-flex--end">
+            <div class="iphone13-pro-container--1">
+              <h2 class="container1--heading-primary">iPhone 13 Pro</h2>
+              <h4 class="container1--heading-secondary">Oh. So. Pro.</h4>
+
+              <div class="cta-btns">
+                <div class="learn-more--icon">
+                  <a href="#">Learn more</a>
+                  <i class="ph-caret-right"></i>
+                </div>
+
+                <div class="buy-now--icon">
+                  <a href="#">Buy</a>
+                  <i class="ph-caret-right"></i>
+                </div>
+              </div>
+            </div>
+            <img src="iPhone/iphone-13Pro.jpg" alt="" />
+          </div>
+
+          <!-- Container 2 -->
+          <div class="iphone-flex--end">
+            <div class="iphone13-pro-container--2">
+              <h4 class="container2--heading-primary">iPhone 13</h4>
+              <p class="container2--heading-secondary">Your new superpower.</p>
+              <span>
+                A lightning-fast chip. A leap in battery life. And all-new photo
+                and video capabilities. iPhone 13 lets you do things you never
+                could before — in two great sizes.
+              </span>
+            </div>
+            <div class="color-options">
+              <img src="iPhone/green-iphone.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Computing -->
+    <section class="computing">
+      <h1 class="computing--heading-primary">Computing</h1>
+      <div class="computing--link">
+        <a href="#" class="links">Dell</a>
+        <a href="#" class="links">Lenovo</a>
+        <a href="#" class="links">Micorosoft</a>
+        <a href="#" class="links">HP</a>
+        <a href="#" class="links">Asus</a>
+      </div>
+
+      <div class="computer-container">
+        <div class="computer--grid">
+          <!-- arrow -->
+          <i class="ph-caret-left arrow"></i>
+
+          <!-- element 1 -->
+          <div class="card">
+            <div>
+              <div class="laptop--img">
+                <img src="laptop/XPS-13.jpg" alt="Xps13" class="laptop-img" />
+              </div>
+
+              <a href="#" class="laptop-name">XPS 13 Touch Laptop</a>
+              <p class="laptop-price">$1,369.99</p>
+
+              <ul class="laptop-specs">
+                <li class="laptop-spec">
+                  <i class="ph-cpu icon-size"></i>11ᵗʰ Gen Intel® Core™
+                  i5-1135G7
+                </li>
+                <li class="laptop-spec">
+                  <i class="ph-windows-logo icon-size"></i>Windows 11 Home
+                </li>
+                <li class="laptop-spec">
+                  <i class="ph-game-controller icon-size"></i>Intel® Iris® Xe
+                  Graphics
+                </li>
+                <li class="laptop-spec">
+                  <i class="ph-hard-drive icon-size"></i>8 GB Memory
+                </li>
+                <li class="laptop-spec">
+                  <i class="ph-hard-drives icon-size"></i>512 GB SSD
+                </li>
+                <li class="laptop-spec">
+                  <i class="ph-frame-corners icon-size"></i>13.4-in. touch
+                  display Full HD (1920X1200)
+                </li>
+                <li class="laptop-spec">
+                  <i class="ph-scales icon-size"></i>Starting at 2.64 lbs
+                </li>
+              </ul>
+            </div>
+
+            <a href="#" class="buy--laptop">Buy</a>
+          </div>
+
+          <!-- element 2 -->
+          <div class="card">
+            <div>
+              <div class="laptop--img">
+                <img src="laptop/XPS-15.jpg" alt="" class="laptop-img" />
+              </div>
+
+              <a href="" class="laptop-name">XPS 15 Touch Laptop</a>
+
+              <p class="laptop-price">$1,599.99</p>
+
+              <ul class="laptop-specs">
+                <li class="laptop-spec">
+                  <i class="ph-cpu icon-size"></i>11ᵗʰ Gen Intel® Core™
+                  i7-11800H
+                </li>
+                <li class="laptop-spec">
+                  <i class="ph-windows-logo icon-size"></i>Windows 11 Home
+                </li>
+                <li class="laptop-spec">
+                  <i class="ph-game-controller icon-size"></i>NVIDIA® GeForce
+                  RTX™ 3050 Ti
+                </li>
+                <li class="laptop-spec">
+                  <i class="ph-hard-drive icon-size"></i>16 GB Memory
+                </li>
+                <li class="laptop-spec">
+                  <i class="ph-hard-drives icon-size"></i>512 GB SSD
+                </li>
+                <li class="laptop-spec">
+                  <i class="ph-frame-corners icon-size"></i>15.6-in. touch
+                  display 3.5K (3456X2160) OLED
+                </li>
+                <li class="laptop-spec">
+                  <i class="ph-scales icon-size"></i>Starting at 4.22 lbs
+                </li>
+              </ul>
+            </div>
+            <a href="#" class="buy--laptop">Buy</a>
+          </div>
+
+          <!-- element 3 -->
+          <div class="card">
+            <div>
+              <div class="laptop--img">
+                <img src="laptop/XPS-15-img.jpg" alt="" class="laptop-img" />
+              </div>
+              <a href="" class="laptop-name">New XPS 15 Laptop</a>
+              <p class="laptop-price">$1,899.00</p>
+
+              <ul class="laptop-specs">
+                <li class="laptop-spec">
+                  <i class="ph-cpu icon-size"></i>12ᵗʰ Gen Intel® Core™
+                  i7-12700H
+                </li>
+                <li class="laptop-spec">
+                  <i class="ph-windows-logo icon-size"></i>Windows 11 Home
+                </li>
+                <li class="laptop-spec">
+                  <i class="ph-game-controller icon-size"></i>NVIDIA® GeForce
+                  RTX™ 3050
+                </li>
+                <li class="laptop-spec">
+                  <i class="ph-hard-drive icon-size"></i>16 GB Memory
+                </li>
+                <li class="laptop-spec">
+                  <i class="ph-hard-drives icon-size"></i>512 GB SSD
+                </li>
+                <li class="laptop-spec">
+                  <i class="ph-frame-corners icon-size"></i>15.6-in. display
+                  Full HD (1920X1200)
+                </li>
+                <li class="laptop-spec">
+                  <i class="ph-scales icon-size"></i>Starting at 4.06 lbs
+                </li>
+              </ul>
+            </div>
+            <a href="#" class="buy--laptop">Buy</a>
+          </div>
+
+          <!-- element 4 -->
+          <div class="card">
+            <div>
+              <div class="laptop--img">
+                <img src="laptop/XPS-15-img.jpg" alt="" class="laptop-img" />
+              </div>
+              <a href="" class="laptop-name">New XPS 15 Touch Laptop</a>
+              <p class="laptop-price">$2,599.99</p>
+
+              <ul class="laptop-specs">
+                <li class="laptop-spec">
+                  <i class="ph-cpu icon-size"></i>12ᵗʰ Gen Intel® Core™
+                  i9-12900HK
+                </li>
+                <li class="laptop-spec">
+                  <i class="ph-windows-logo icon-size"></i>Windows 11 Home
+                </li>
+                <li class="laptop-spec">
+                  <i class="ph-game-controller icon-size"></i>NVIDIA® GeForce
+                  RTX™ 3050 Ti
+                </li>
+                <li class="laptop-spec">
+                  <i class="ph-hard-drive icon-size"></i>32 GB Memory
+                </li>
+                <li class="laptop-spec">
+                  <i class="ph-hard-drives icon-size"></i>1 TB SSD
+                </li>
+                <li class="laptop-spec">
+                  <i class="ph-frame-corners icon-size"></i>15.6-in. touch
+                  display Full HD (1920X1200)
+                </li>
+                <li class="laptop-spec">
+                  <i class="ph-scales icon-size"></i>Starting at 4.06 lbs
+                </li>
+              </ul>
+            </div>
+            <a href="#" class="buy--laptop">Buy</a>
+          </div>
+
+          <!-- arrow -->
+          <i class="ph-caret-right arrow"></i>
+          <a href="#" class="laptop-see-more">See more</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section iPad -->
+    <section class="ipad">
+      <div class="grid--5-cols">
+        <div class="ipad-container--1">
+          <div class="air-info">
+            <img src="laptop/air logo.png" alt="" class="air-logo" />
+            <p>Light.Bright.Full of might.</p>
+
+            <div class="cta-btns">
+              <div class="learn-more--icon">
+                <a href="#">Learn more</a>
+                <i class="ph-caret-right"></i>
+              </div>
+
+              <div class="buy-now--icon">
+                <a href="#">Buy</a>
+                <i class="ph-caret-right"></i>
+              </div>
+            </div>
+          </div>
+
+          <img src="laptop/air image.jpeg" alt="" class="air-img" />
+        </div>
+        <div class="ipad-container--2">
+          <img src="laptop/ipad-mini.jpeg" alt="" class="mini-img" />
+          <div>
+            <div class="mini">
+              <p class="heading-primary">iPad</p>
+              <img src="laptop/mini.png" alt="" class="mini-png" />
+            </div>
+            <div>
+              <p class="heading-tertiary">Mega power.</p>
+              <p class="heading-tertiary">Mini sized.</p>
+            </div>
+
+            <div class="cta-btns">
+              <div class="learn-more--icon">
+                <a href="#">Learn more</a>
+                <i class="ph-caret-right"></i>
+              </div>
+
+              <div class="buy-now--icon">
+                <a href="#">Buy</a>
+                <i class="ph-caret-right"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <h1 class="ipad--heading-primary">Which iPad is right for you?</h1>
+
+        <div class="ipad-grid--container">
+          <div class="compare-grid">
+            <!-- iPad Pro -->
+            <div>
+              <img src="ipad/ipad_pro.png" alt="" class="ipad-img" />
+              <h3 class="ipad-name">iPad Pro</h3>
+              <div class="about-ipad">
+                <p>The ultimate</p>
+                <p>iPad experience.</p>
+              </div>
+            </div>
+
+            <!-- iPad Air -->
+            <div>
+              <img src="ipad/ipad_air.png" alt="" class="ipad-img" />
+              <h3 class="ipad-name">iPad Air</h3>
+              <div class="about-ipad">
+                <p>Powerful. Colorful.</p>
+                <p>Wonderful.</p>
+              </div>
+            </div>
+
+            <!-- iPad 10.2 -->
+            <div>
+              <img src="ipad/ipad_10_2.png" alt="" class="ipad-img" />
+              <h3 class="ipad-name">iPad</h3>
+              <div class="about-ipad">
+                <p>Delightfully capable.</p>
+                <p>Surprisingly affordable.</p>
+              </div>
+            </div>
+
+            <!-- iPad mini -->
+            <div>
+              <img src="ipad/ipad_mini.png" alt="" class="ipad-img" />
+              <h3 class="ipad-name">iPad mini</h3>
+              <div class="about-ipad">
+                <p>Mega power.</p>
+                <p>Mini sized.</p>
+              </div>
+            </div>
+
+            <div>
+              <p class="ipad-price">From $799</p>
+              <a href="#" class="buy-ipad">Buy</a>
+              <a href="#" class="ipad-learn-more"
+                >Learn more
+                <i class="ph-caret-right"></i>
+              </a>
+            </div>
+            <div>
+              <p class="ipad-price">From $599</p>
+              <a href="#" class="buy-ipad">Buy</a>
+              <a href="#" class="ipad-learn-more"
+                >Learn more
+                <i class="ph-caret-right"></i>
+              </a>
+            </div>
+            <div>
+              <p class="ipad-price">From $329</p>
+              <a href="#" class="buy-ipad">Buy</a>
+              <a href="#" class="ipad-learn-more"
+                >Learn more
+                <i class="ph-caret-right"></i>
+              </a>
+            </div>
+            <div>
+              <p class="ipad-price">From $499</p>
+              <a href="#" class="buy-ipad">Buy</a>
+              <a href="#" class="ipad-learn-more"
+                >Learn more
+                <i class="ph-caret-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section wearable -->
+    <section class="wearable">
+      <div class="wearables">
+        <h1 class="wearables--heading-primary">Wearables</h1>
+        <div class="watch-name-links">
+          <a href="#" class="watch-name">Apple Watch Series 7</a>
+          <a href="#" class="watch-name">Galaxy Watch 5Pro</a>
+        </div>
+
+        <div class="watch">
+          <div class="watch-container">
+            <!-- Container 1 -->
+            <div class="container-size">
+              <span><img src="/wearables/series-7.png" alt="" /></span>
+              <p>It's our largest display yet.</p>
+
+              <div class="cta-btns">
+                <div class="learn-more--icon">
+                  <a href="#">Learn more</a>
+                  <i class="ph-caret-right"></i>
+                </div>
+
+                <div class="buy-now--icon">
+                  <a href="#">Buy</a>
+                  <i class="ph-caret-right"></i>
+                </div>
+              </div>
+
+              <div class="watch7--img">
+                <img src="wearables/watch-series7.png" alt="" class="watch7" />
+              </div>
+            </div>
+
+            <!-- Container 2 -->
+            <div class="container-size">
+              <h2>Magic Runs in the family.</h2>
+              <p>Explore all AirPods models and find the best ones for you.</p>
+
+              <div class="cta-btns">
+                <div class="learn-more--icon">
+                  <a href="#">Learn more</a>
+                  <i class="ph-caret-right"></i>
+                </div>
+              </div>
+
+              <div class="air-pods">
+                <img src="wearables/airpods-max.jpeg" alt=""/ class="airpod">
+              </div>
+            </div>
+
+            <!-- Container 3 -->
+            <div class="galaxy">
+              <div class="galaxy-container">
+                <img
+                  src="wearables/galaxy-watch5-pro-kv.jpeg"
+                  alt=""
+                  class="galaxy-watch"
+                />
+                <div class="galaxy--text">
+                  <h1 class="galaxy-watch--name">Galaxy Watch5 Pro</h1>
+                  <div class="cta-watch">
+                    <a href="#" class="galaxy--learn">Learn more</a>
+                    <a href="#" class="galaxy--buy">Pre-order now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <p class="search-container">
+        <ion-icon
+          name="search-outline"
+          class="nav-icon--search search-container--left"
+        ></ion-icon>
+        <input class="search" type="text" placeholder="Search Keyword" />
+      </p>
+    </section>
+
+    <!-- Section Footer -->
+    <footer class="footer">
+      <div class="footer-grid--5-cols">
+        <div class="logo-col">
+          <span class="logo">Company</span>
+        </div>
+
+        <div class="account-col">
+          <p class="footer-heading">Accounts</p>
+          <ul class="footer-nav">
+            <li><a href="#" class="footer-link">My Account</a></li>
+            <li><a href="#" class="footer-link">Order Status</a></li>
+            <li><a href="#" class="footer-link">My products</a></li>
+            <li><a href="#" class="footer-link">Make a Payment</a></li>
+          </ul>
+        </div>
+
+        <div class="support-col">
+          <p class="footer-heading">Support</p>
+          <ul class="footer-nav">
+            <li><a href="#" class="footer-link">Support Home</a></li>
+            <li><a href="#" class="footer-link">Contact Support</a></li>
+          </ul>
+        </div>
+
+        <div class="connect-with-us-col">
+          <p class="footer-heading">Connect with Us</p>
+          <ul class="footer-nav">
+            <li><a href="#" class="footer-link">Community</a></li>
+            <li><a href="#" class="footer-link">Contact Us</a></li>
+            <li><a href="#" class="footer-link">Twitter</a></li>
+            <li><a href="#" class="footer-link">LinkedIn</a></li>
+            <li><a href="#" class="footer-link">Instagram</a></li>
+            <li><a href="#" class="footer-link">YouTube</a></li>
+          </ul>
+        </div>
+
+        <div class="our-offering-col">
+          <p class="footer-heading">Our Offerings</p>
+          <ul class="footer-nav">
+            <li><a href="#" class="footer-link">Products</a></li>
+            <li><a href="#" class="footer-link">Solutions</a></li>
+            <li><a href="#" class="footer-link">Services</a></li>
+            <li><a href="#" class="footer-link">Deals</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

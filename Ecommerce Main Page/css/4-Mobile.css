@@ -1,0 +1,160 @@
+.mobile {
+  margin-bottom: 10.8rem;
+  margin-right: 4rem;
+  margin-left: 4rem;
+}
+
+.mobile-heading--primary{
+  font-size: 4.8rem;
+  font-family: "SF Pro Display Regular";
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 1.5rem;
+}
+
+.phone-links {
+  display: flex;
+  justify-content: center;
+  gap: 6rem;
+  font-size: 2rem;
+  font-family: "Roboto";
+  margin-bottom: 4rem;
+}
+
+.mobile-heading--secondary{
+  text-align: center;
+  font-size: 3.6rem;
+  font-family: "SF Pro Display Bold";
+}
+
+.mobile-heading--tertiary{
+  text-align: center;
+  font-size: 2.8rem;
+  font-weight: normal;
+  font-family: "SF Pro Display Regular"
+}
+
+.cta-btns {
+  display: flex;
+  gap: 2.4rem;
+  justify-content: center;
+  margin-bottom: 3.2rem;
+  margin-top: 1.8rem;
+  color: #0066cc;
+}
+
+.learn-more--icon,
+.buy-now--icon {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  font-size: 1.7rem;
+  font-family: "SF Pro Display Regular";
+}
+
+.learn-more--icon a,
+.buy-now--icon a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.learn-more--icon a:hover,
+.buy-now--icon a:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.mobile-img--container {
+  display: flex;
+  justify-content: center;
+  height: 320px;
+  margin-bottom: 2.4rem;
+}
+
+.grid-2--cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  row-gap: 4rem;
+}
+
+.iphone-flex--end{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.iphone-flex--end:last-child{
+  background-color: rgb(245, 245, 245);
+}
+
+.iphone-flex--end img{
+  width: inherit;
+}
+
+/* Container 1 */
+.container1--heading-primary{
+  text-align: center;
+  font-size: 3.6rem;
+  font-family: "SF Pro Display Bold";
+}
+
+.container1--heading-secondary{
+  text-align: center;
+  font-size: 2.8rem;
+  font-family: "SF Pro Display Regular";
+  font-weight: normal;
+}
+
+.iphone13-pro-container--1{
+  background-color: #FBFBFDff;
+  background-color: ;
+}
+
+.iphone13-pro-container--1 img {
+  width: 100%;
+}
+
+
+/* Container 2 */
+.container2--heading-primary{
+  margin-top: 2.2rem;
+  margin-bottom: 1.2rem;
+  font-family: "SF Pro Display Regular";
+}
+
+.container2--heading-secondary{
+font-size: 4.4rem;
+font-family: "SF Pro Display Bold";
+margin-bottom: 2rem;
+}
+
+.iphone13-pro-container--2 span {
+  display: inline-block;
+  font-family: "SF Pro Display Regular";
+  font-weight: normal;
+  font-size: 2.1rem;
+  line-height: 1.4;
+  width: 560px;
+}
+
+.iphone13-pro-container--2 {
+  text-align: center;
+  align-items: center;
+  background-color: rgb(245, 245, 245);
+  width: 100%;
+  font-size: 2.1rem;
+  color: #1d1d1f;
+}
+
+.color-options {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(245, 245, 245);
+  padding-bottom: 3.6rem;                 ;
+}
+
+.color-options img {
+  width: 600px;
+}

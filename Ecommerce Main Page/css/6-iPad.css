@@ -1,0 +1,134 @@
+.ipad{
+  padding-bottom: 6rem;
+  background-color: #efefef;
+  border-bottom: 1px solid #ccc;
+
+}
+
+.grid--5-cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  background-color: #efefef;
+  gap: 2rem;
+
+  padding: 2rem 2rem 2rem 2rem;
+  margin-top: 4rem;
+  border-top: 1px solid #ccc;
+}
+
+.ipad-container--1 {
+  padding-top: 4rem;
+  background-color: black;
+  grid-column: 1 / span 2;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 4rem;
+}
+
+.air-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ipad-container--1 p {
+  font-size: 2.1rem;
+  color: #fff;
+  margin-top: 1.2rem;
+}
+
+.air-img {
+  height: 350px;
+}
+
+.mini-img {
+  margin-top: 7rem;
+  margin-left: 1.6rem;
+  height: 500px;
+  overflow: hidden;
+}
+
+.mini {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.mini-png {
+  margin-top: 11px;
+  width: 103px;
+  height: 43px;
+}
+
+.ipad-container--2 {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  grid-column: 3 / span 3;
+  overflow: hidden;
+}
+
+.ipad--heading-primary{
+  font-size: 5.6rem;
+  font-family: "SF Pro Display Medium";
+  text-align: center;
+  padding-top: 1.6rem;
+}
+
+.compare-grid {
+  display: grid;
+  justify-items: center;
+  align-items: flex-end;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr auto; 
+  margin-top: 6.2rem;
+  text-align: center;
+  width: 1050px;
+  margin-right: auto;
+  margin-left: auto;
+  row-gap: 2rem;
+}
+
+.ipad-img {
+  height: 214px;
+}
+
+.ipad-name {
+  font-size: 2.4rem;
+  margin-top: 2rem;
+  color: #1d1d1f;
+}
+
+.about-ipad {
+  margin-top: 4px;
+  font-size: 1.7rem;
+  font-family: "Roboto";
+}
+
+.ipad-price{
+  font-size: 1.4rem;
+  color: #636363;
+}
+
+.buy-ipad{
+  display: inline-block;
+  margin-top: 1.4rem;
+  background-color: #0071E3;
+  font-size: 12px;
+  color: #fff;
+  text-decoration: none;
+  padding: 4px 12px;
+  border-radius: 15px;
+}
+
+.ipad-learn-more{
+  display: flex;
+  margin-top: 1.8rem;
+  color: #0066CC;
+  font-size: 14px;
+  text-decoration: none;
+  align-items: center;
+}
